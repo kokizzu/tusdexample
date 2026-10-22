@@ -1,5 +1,7 @@
 # tusdexample
 
+Package builds select the HTTP hook by default. Use `go build -tags=grpc .` for the gRPC hook. The individual `go run httpmain.go` and `go run grpcmain.go` commands below remain supported.
+
 1. clone tusd `git clone git@github.com:tus/tusd.git`
 2. build the executable:
 ```shell
